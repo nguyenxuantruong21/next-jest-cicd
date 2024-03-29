@@ -11,6 +11,7 @@ export async function generateMetadata({ params }: Params) {
 export default function Page({ params }: Params) {
   return <div>
     <h1>Slug: {params.slug}</h1>
-    <p>HoleText</p>
+    <p>Hole Text</p>
+    <p>welcome hano</p>
   </div> ;
 }
